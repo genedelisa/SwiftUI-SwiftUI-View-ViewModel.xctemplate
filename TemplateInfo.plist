@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.rockhoppertech.swiftui.mvvm</string>
+
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+
+	<key>Description</key>
+	<string>A Simple SwiftUI View with ViewModel</string>
+	<key>Summary</key>
+	<string>A Simple SwiftUI View with ViewModel</string>
+
+	<!-- <key>SortOrder</key>
+	<string>1</string> -->
+
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+
+	<key>DefaultCompletionName</key>
+	<string>View ViewModel Group</string>
+
+	<!-- <key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string> -->
+
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>basename</string>
+			<key>Name</key>
+			<string>Please enter a basename for the files:</string>
+			<key>Default</key>
+			<string>Basename</string>
+			<key>Description</key>
+			<string>The basename used in filenames. e.g. BaseView, BaseViewModel</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+
+		<!-- <dict>
+			<key>Identifier</key>
+			<string>datatype</string>
+			<key>Name</key>
+			<string>Please enter the data type:</string>
+			<key>Default</key>
+			<string>String</string>
+			<key>Description</key>
+			<string>This is the type of the data used in the datasource</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>  -->
+
+	</array>
+
+	<key>Nodes</key>
+	<array>
+		<string>___VARIABLE_basename___View.swift</string>
+		<string>___VARIABLE_basename___ViewModel.swift</string>
+
+	</array>
+
+	<key>Definitions</key>
+	<dict>
+		<key>___VARIABLE_basename___View.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_basename___View.swift</string>
+		</dict>
+
+		<key>___VARIABLE_basename___ViewModel.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_basename___ViewModel.swift</string>
+		</dict>
+
+	</dict>
+
+</dict>
+</plist>
